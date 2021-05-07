@@ -51,7 +51,7 @@
 
                 <EditText
                     android:id="@+id/activity_login_et_username"
-                    android:hint=" Enter User name"
+                    android:hint=" Enter Email"
                     android:paddingTop="8dp"
                     android:background="@drawable/card_edge"
                     android:paddingBottom="8dp"
