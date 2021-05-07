@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Activity.LoginActivity">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_marginTop="70dp"
+            android:layout_width="match_parent"
+            android:layout_height="250dp">
+
+            <ImageView
+                android:layout_marginTop="60dp"
+                android:layout_marginBottom="20dp"
+                android:layout_marginRight="110dp"
+                android:background="@drawable/ebsy"
+                android:layout_marginLeft="110dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_gravity="center"
+                    android:textColor="@color/black"
+                    android:text="Please sign in to Continue"
+                    android:layout_marginBottom="15dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+                <EditText
+                    android:id="@+id/activity_login_et_username"
+                    android:hint=" Enter User name"
+                    android:paddingTop="8dp"
+                    android:background="@drawable/card_edge"
+                    android:paddingBottom="8dp"
+                    android:textAlignment="center"
+                    android:paddingLeft="5dp"
+                    android:layout_marginLeft="34dp"
+                    android:layout_marginRight="30dp"
+                    android:layout_marginBottom="10dp"
+                    android:textSize="12dp"
+                    android:drawableLeft="@drawable/ic_baseline_group_add"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+                <EditText
+                    android:id="@+id/activity_login_et_password"
+                    android:hint=" Enter Password"
+                    android:drawableLeft="@drawable/ic_baseline_local_police_24"
+                    android:paddingTop="8dp"
+                    android:textAlignment="center"
+                    android:background="@drawable/card_edge"
+                    android:paddingBottom="8dp"
+                    android:paddingLeft="5dp"
+                    android:textSize="12dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="34dp"
+                    android:layout_marginRight="30dp"
+                    android:inputType="textPassword"
+                    app:passwordToggleEnabled="true"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/activity_login_btn_login"
+                android:textSize="15dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginRight="90dp"
+                android:layout_marginLeft="90dp"
+                android:textAllCaps="false"
+                android:text="Login"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:elevation="100dp"
+                android:padding="8dp"
+                android:background="@drawable/button_edge"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:id="@+id/activity_login_tv_forgetPassword"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/black"
+                android:layout_gravity="center"
+                android:text="Forget Password ?"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:id="@+id/text_register"
+                android:textSize="20dp"
+                android:layout_marginTop="20dp"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:layout_marginRight="30dp"
+                android:layout_marginLeft="30dp"
+                android:text="Still not Registered ? Click here"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <LinearLayout
+                android:id="@+id/radio_layout"
+                android:visibility="gone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="75dp"
+                android:layout_marginRight="35dp"
+                android:layout_marginTop="10dp"
+                android:weightSum="2"
+                android:padding="10dp"
+                android:orientation="horizontal">
+                <RadioButton
+                    android:id="@+id/activity_login_rbn_buyer"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:textColor="@color/black"
+                    android:checked="true"
+                    android:shadowColor="@color/col_red"
+                    android:buttonTint="@color/col_red"
+                    android:layout_height="wrap_content"
+                    android:text="Buyer" />
+                <RadioButton
+                    android:id="@+id/activity_login_rbn_seller"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:shadowColor="@color/col_red"
+                    android:buttonTint="@color/col_red"
+                    android:textColor="@color/black"
+                    android:checked="false"
+                    android:layout_height="wrap_content"
+                    android:text="Seller" />
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/activity_login_btn_register"
+                android:textSize="15dp"
+                android:visibility="gone"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="90dp"
+                android:layout_marginBottom="30dp"
+                android:layout_marginLeft="90dp"
+                android:textAllCaps="false"
+                android:text="Register"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:elevation="100dp"
+                android:background="@drawable/button_edge"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>
