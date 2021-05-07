@@ -42,7 +42,7 @@
             android:layout_height="match_parent">
 
             <TextView
-                android:text="Join the Esby"
+                android:text="Join Ebsy"
                 android:textSize="22dp"
                 android:textStyle="bold"
                 android:textColor="@color/black"
@@ -55,7 +55,7 @@
                 android:textSize="12dp"
                 android:textColor="@color/black"
                 android:textStyle="italic"
-                android:text="Create an account"
+                android:text="Create an Account"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"/>
 
@@ -74,7 +74,7 @@
                 android:layout_marginRight="30dp"
                 android:textSize="14dp"
                 android:drawableLeft="@drawable/ic_baseline_group_add"
-                android:hint=" Enter First name" />
+                android:hint=" Enter First Name" />
 
             <EditText
                 android:id="@+id/activity_seller_register_et_lName"
@@ -91,7 +91,7 @@
                 android:layout_marginRight="30dp"
                 android:textSize="14dp"
                 android:drawableLeft="@drawable/ic_baseline_group_add"
-                android:hint=" Enter First name" />
+                android:hint=" Enter Last Name" />
 
 
             <EditText
@@ -126,7 +126,7 @@
                 android:layout_marginRight="30dp"
                 android:textSize="14dp"
                 android:drawableLeft="@drawable/ic_baseline_local_phone_24"
-                android:hint=" Enter Mobile no" />
+                android:hint=" Enter Mobile No" />
 
             <com.toptoche.searchablespinnerlibrary.SearchableSpinner
                 android:id="@+id/activity_seller_register_sp_vehicle_type"
@@ -159,7 +159,7 @@
                 android:layout_marginRight="30dp"
                 android:textSize="14dp"
                 android:drawableLeft="@drawable/ic_baseline_local_car_wash_24"
-                android:hint=" Enter vehicle no" />
+                android:hint=" Enter Vehicle No" />
 
             <com.toptoche.searchablespinnerlibrary.SearchableSpinner
                 android:id="@+id/activity_seller_register_sp_district"

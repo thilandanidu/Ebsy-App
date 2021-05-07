@@ -20,12 +20,12 @@ public class SplashActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_splash);
 
-        mTvText = findViewById(R.id.text_icon_text);
+//        mTvText = findViewById(R.id.text_icon_text);
         mImgView = findViewById(R.id.splash_image);
         mTvCopy = findViewById(R.id.text_icon_text_copy);
 
         Animation animation = AnimationUtils.loadAnimation(this,R.anim.my_animation);
-        mTvText.startAnimation(animation);
+//        mTvText.startAnimation(animation);
         mImgView.startAnimation(animation);
         mTvCopy.startAnimation(animation);
         final Intent intent = new Intent(this,LoginActivity.class);

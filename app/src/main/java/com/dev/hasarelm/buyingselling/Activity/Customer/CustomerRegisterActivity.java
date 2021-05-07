@@ -318,7 +318,7 @@ public class CustomerRegisterActivity extends AppCompatActivity implements View.
             return false;
         }else if (contact.length() < 10) {
             mEtMobileNo.requestFocus();
-            mEtMobileNo.setError("invalid mobile number");
+            mEtMobileNo.setError("Invalid mobile number");
             return false;
         }  else if (password.length() <7) {
             mEtPassword.requestFocus();
