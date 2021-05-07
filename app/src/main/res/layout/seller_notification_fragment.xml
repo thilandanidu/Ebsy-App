@@ -4,41 +4,42 @@
     android:layout_width="match_parent"
     android:layout_marginLeft="20dp"
     android:layout_marginRight="20dp"
+
     android:layout_height="match_parent">
 
     <LinearLayout
-        android:orientation="vertical"
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="match_parent"
+        android:orientation="vertical">
 
         <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:textAllCaps="false"
-            android:text="Notifications"
-            android:gravity="center"
-            android:textSize="22dp"
-            android:textStyle="bold"
-            android:textColor="@color/black"
             android:layout_marginTop="15dp"
             android:layout_marginBottom="15dp"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"/>
+            android:gravity="center"
+            android:text="Notifications"
+            android:textAllCaps="false"
+            android:textColor="@color/black"
+            android:textSize="22dp"
+            android:textStyle="bold" />
 
         <TextView
             android:id="@+id/notification_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:layout_marginTop="180dp"
-            android:textSize="20dp"
-            android:visibility="gone"
             android:gravity="center"
             android:text="No Notification"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"/>
+            android:textSize="20dp"
+            android:visibility="gone" />
 
         <androidx.recyclerview.widget.RecyclerView
             android:id="@+id/rv_notification"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"/>
+            android:layout_height="match_parent" />
 
 
     </LinearLayout>

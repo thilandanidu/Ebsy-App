@@ -23,12 +23,12 @@
         <TextView
             android:layout_gravity="center"
             android:textAllCaps="false"
-            android:text="Customers Orders"
+            android:text="Orders Received"
             android:textSize="22dp"
             android:textStyle="bold"
             android:textColor="@color/black"
             android:gravity="center"
-            android:layout_marginTop="15dp"
+            android:layout_marginTop="25dp"
             android:layout_marginBottom="10dp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"/>
@@ -37,7 +37,8 @@
             android:layout_marginTop="10dp"
             android:id="@+id/seller_home_fragment_rv_all_list"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"/>
+            android:layout_height="match_parent"
+            />
 
     </LinearLayout>
 
