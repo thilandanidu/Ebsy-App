@@ -7,7 +7,7 @@ android {
     buildToolsVersion "30.0.2"
 
     defaultConfig {
-        applicationId "com.dev.hasarelm.buyingselling"
+        applicationId "com.thilandanidu.android.ebsy"
         minSdkVersion 21
         targetSdkVersion 30
         versionCode 1

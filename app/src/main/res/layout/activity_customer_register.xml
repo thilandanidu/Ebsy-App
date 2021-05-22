@@ -42,22 +42,22 @@
 <!--            android:layout_below="@id/toolbar"-->
 
             <TextView
-                android:text="Join Ebsy"
-                android:textSize="32dp"
+                android:text="Register as a Buyer"
+                android:textSize="25dp"
                 android:textStyle="bold"
                 android:textColor="@color/black"
                 android:layout_marginTop="40dp"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"/>
 
-            <TextView
-                android:layout_marginTop="5dp"
-                android:textSize="15dp"
-                android:textColor="@color/black"
-                android:textStyle="italic"
-                android:text="Register as a Buyer"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"/>
+<!--            <TextView-->
+<!--                android:layout_marginTop="5dp"-->
+<!--                android:textSize="15dp"-->
+<!--                android:textColor="@color/black"-->
+<!--                android:textStyle="italic"-->
+<!--                android:text="Register as a Buyer"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"/>-->
 
 
             <EditText

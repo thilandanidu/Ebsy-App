@@ -13,7 +13,7 @@
         <TextView
             android:layout_gravity="center"
             android:textAllCaps="false"
-            android:text="Customer Orders"
+            android:text="Order History"
             android:gravity="center"
             android:textSize="22dp"
             android:textStyle="bold"
@@ -33,7 +33,7 @@
                 android:id="@+id/radiocomplete"
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
-                android:text=" Complete"
+                android:text="Received"
                 android:layout_marginTop="5dp"
                 android:checked="true"
                 android:textSize="15dp" />
@@ -43,7 +43,7 @@
                 android:layout_marginLeft="10dp"
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
-                android:text="  Pending"
+                android:text="Pending"
                 android:layout_marginTop="5dp"
                 android:checked="false"
 

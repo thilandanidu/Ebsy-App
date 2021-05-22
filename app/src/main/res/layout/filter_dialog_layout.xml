@@ -6,7 +6,7 @@
     android:layout_height="match_parent">
 
     <TextView
-        android:text="Filtered by "
+        android:text="Filter by "
         android:textSize="30dp"
         android:layout_gravity="center"
         android:textStyle="bold"
@@ -27,7 +27,7 @@
         android:layout_height="35dp">
 
         <TextView
-            android:text="By Visit Date"
+            android:text="Visit Date"
             android:layout_gravity="center"
             android:textSize="18dp"
             android:gravity="center"
@@ -57,7 +57,7 @@
         android:layout_height="35dp">
 
         <TextView
-            android:text="By Category Type"
+            android:text="Category Type"
             android:layout_gravity="center"
             android:textSize="18dp"
             android:gravity="center"
@@ -86,7 +86,7 @@
         android:layout_height="35dp">
 
         <TextView
-            android:text="By Today Route"
+            android:text="Today Route"
             android:layout_gravity="center"
             android:textSize="18dp"
             android:gravity="center"

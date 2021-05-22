@@ -90,11 +90,11 @@
                 android:layout_height="wrap_content">
 
                 <TextView
-                    android:layout_weight="1.3"
-                    android:text="From time"
-                    android:layout_margin="5dp"
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"/>
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:layout_weight="1.3"
+                    android:text="Start Time" />
 
                 <TextView
                     android:text=":"
@@ -116,7 +116,7 @@
 
                 <TextView
                     android:layout_weight="1.3"
-                    android:text="To time"
+                    android:text="End Time"
                     android:layout_margin="5dp"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"/>

@@ -57,11 +57,11 @@
                     android:layout_height="wrap_content"
                     android:orientation="horizontal">
 
-                    <ImageView
-                        android:layout_width="85dp"
-                        android:layout_height="85dp"
-                        android:layout_marginTop="15dp"
-                        android:src="@mipmap/ic_launcher" />
+<!--                    <ImageView-->
+<!--                        android:layout_width="85dp"-->
+<!--                        android:layout_height="85dp"-->
+<!--                        android:layout_marginTop="15dp"-->
+<!--                        android:src="@mipmap/ic_launcher" />-->
 
                     <LinearLayout
                         android:layout_marginTop="20dp"
@@ -127,7 +127,7 @@
                 android:layout_marginRight="30dp"
                 android:textSize="14dp"
                 android:drawableLeft="@drawable/ic_baseline_group_add"
-                android:hint=" Enter First name"
+                android:hint=" First name"
                 android:paddingLeft="5dp"
                 android:paddingTop="7dp"
                 android:paddingBottom="7dp" />
@@ -143,7 +143,7 @@
                 android:layout_marginRight="30dp"
                 android:textSize="14dp"
                 android:drawableLeft="@drawable/ic_baseline_group_add"
-                android:hint=" Enter Last name"
+                android:hint=" Last name"
                 android:paddingLeft="5dp"
                 android:paddingTop="7dp"
                 android:paddingBottom="7dp" />
@@ -159,7 +159,7 @@
                 android:layout_marginLeft="30dp"
                 android:layout_marginRight="30dp"
                 android:drawableLeft="@drawable/ic_baseline_event_24"
-                android:hint=" Enter Address"
+                android:hint=" Address"
                 android:paddingLeft="5dp"
                 android:paddingTop="7dp"
                 android:paddingBottom="7dp" />
@@ -175,7 +175,7 @@
                 android:layout_marginLeft="30dp"
                 android:layout_marginRight="30dp"
                 android:drawableLeft="@drawable/ic_baseline_hiking_24"
-                android:hint=" Enter Street"
+                android:hint=" Street"
                 android:paddingLeft="5dp"
                 android:paddingTop="7dp"
                 android:paddingBottom="7dp" />
@@ -191,7 +191,7 @@
                 android:layout_marginRight="30dp"
                 android:textSize="14dp"
                 android:drawableLeft="@drawable/ic_baseline_emoji_transportation_24"
-                android:hint=" Enter City"
+                android:hint=" City"
                 android:paddingLeft="5dp"
                 android:paddingTop="7dp"
                 android:paddingBottom="7dp" />
@@ -226,7 +226,7 @@
                 android:maxLength="10"
                 android:inputType="number"
                 android:drawableLeft="@drawable/ic_baseline_local_phone_24"
-                android:hint=" Enter Mobile no"
+                android:hint=" Mobile No."
                 android:paddingLeft="5dp"
                 android:paddingTop="7dp"
                 android:paddingBottom="7dp"/>

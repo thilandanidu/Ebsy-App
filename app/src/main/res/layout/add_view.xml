@@ -8,15 +8,15 @@
     android:layout_height="match_parent">
 
     <TextView
-        android:text="View Addverticement"
-        android:textSize="22dp"
-        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:textColor="@color/black"
         android:layout_marginTop="10dp"
         android:layout_marginBottom="20dp"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"/>
+        android:text="View Advertisement"
+        android:textColor="@color/black"
+        android:textSize="22dp"
+        android:textStyle="bold" />
 
     <LinearLayout
         android:orientation="horizontal"
@@ -25,7 +25,7 @@
         android:layout_height="wrap_content">
 
         <TextView
-            android:text="Seller name"
+            android:text="Seller Name"
             android:layout_weight="1.3"
             android:layout_margin="5dp"
             android:layout_width="match_parent"
@@ -51,7 +51,7 @@
         android:layout_height="wrap_content">
 
         <TextView
-            android:text="Seller mobile "
+            android:text="Seller Mobile No."
             android:layout_weight="1.3"
             android:layout_margin="5dp"
             android:layout_width="match_parent"
@@ -156,7 +156,7 @@
         android:layout_height="wrap_content">
 
         <TextView
-            android:text="Route plane"
+            android:text="Route"
             android:layout_weight="1.3"
             android:layout_margin="5dp"
             android:layout_width="match_parent"
@@ -261,7 +261,7 @@
         android:layout_height="wrap_content">
 
         <TextView
-            android:text="From time"
+            android:text="Start time"
             android:layout_weight="1.3"
             android:layout_margin="5dp"
             android:layout_width="match_parent"
@@ -286,7 +286,7 @@
         android:layout_height="wrap_content">
 
         <TextView
-            android:text="To time"
+            android:text="End time"
             android:layout_weight="1.3"
             android:layout_margin="5dp"
             android:layout_width="match_parent"

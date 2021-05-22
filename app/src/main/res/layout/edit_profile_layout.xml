@@ -31,7 +31,7 @@
         android:layout_marginRight="30dp"
         android:textSize="14dp"
         android:drawableLeft="@drawable/ic_baseline_group_add"
-        android:hint=" Enter First name" />
+        android:hint="First name" />
 
     <EditText
         android:id="@+id/activity_seller_register_update_et_lName"
@@ -48,7 +48,7 @@
         android:layout_marginRight="30dp"
         android:textSize="14dp"
         android:drawableLeft="@drawable/ic_baseline_group_add"
-        android:hint=" Enter Last name" />
+        android:hint="Last name" />
 
     <EditText
         android:id="@+id/activity_seller_register_update_et_mobile_no"
@@ -65,7 +65,7 @@
         android:layout_marginRight="30dp"
         android:textSize="14dp"
         android:drawableLeft="@drawable/ic_baseline_local_phone_24"
-        android:hint=" Enter Mobile no" />
+        android:hint="Mobile no" />
 
     <EditText
         android:id="@+id/activity_seller_register_update_et_email"
@@ -82,7 +82,7 @@
         android:layout_marginRight="30dp"
         android:textSize="14dp"
         android:drawableLeft="@drawable/ic_baseline_event_24"
-        android:hint=" Enter Address" />
+        android:hint="Address" />
 
     <com.toptoche.searchablespinnerlibrary.SearchableSpinner
         android:id="@+id/activity_seller_register_update_sp_district"
@@ -115,7 +115,7 @@
         android:layout_marginRight="30dp"
         android:textSize="14dp"
         android:drawableLeft="@drawable/ic_baseline_local_car_wash_24"
-        android:hint=" Enter vehicle no" />
+        android:hint="Vehicle No." />
 
     <com.toptoche.searchablespinnerlibrary.SearchableSpinner
         android:id="@+id/activity_seller_register_update_sp_type"

@@ -44,22 +44,22 @@
 <!--            android:layout_below="@id/toolbar"-->
 
             <TextView
-                android:text="Join Ebsy"
-                android:textSize="22dp"
+                android:text="Register as a Seller"
+                android:textSize="25dp"
                 android:textStyle="bold"
                 android:textColor="@color/black"
                 android:layout_marginTop="40dp"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"/>
 
-            <TextView
-                android:layout_marginTop="5dp"
-                android:textSize="15dp"
-                android:textColor="@color/black"
-                android:textStyle="italic"
-                android:text="Register as a Seller"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"/>
+<!--            <TextView-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginTop="5dp"-->
+<!--                android:text="Register as a Seller"-->
+<!--                android:textColor="@color/black"-->
+<!--                android:textSize="15dp"-->
+<!--                android:textStyle="italic" />-->
 
             <EditText
                 android:id="@+id/activity_seller_register_et_fName"
@@ -76,7 +76,7 @@
                 android:layout_marginRight="30dp"
                 android:textSize="14dp"
                 android:drawableLeft="@drawable/ic_baseline_group_add"
-                android:hint=" Enter First Name" />
+                android:hint="First Name" />
 
             <EditText
                 android:id="@+id/activity_seller_register_et_lName"
@@ -93,7 +93,7 @@
                 android:layout_marginRight="30dp"
                 android:textSize="14dp"
                 android:drawableLeft="@drawable/ic_baseline_group_add"
-                android:hint=" Enter Last Name" />
+                android:hint="Last Name" />
 
 
             <EditText
@@ -111,7 +111,7 @@
                 android:layout_marginRight="30dp"
                 android:textSize="14dp"
                 android:drawableLeft="@drawable/ic_baseline_event_24"
-                android:hint=" Enter Email" />
+                android:hint="Email" />
 
             <EditText
                 android:id="@+id/activity_seller_register_et_mobile_no"
@@ -128,7 +128,7 @@
                 android:layout_marginRight="30dp"
                 android:textSize="14dp"
                 android:drawableLeft="@drawable/ic_baseline_local_phone_24"
-                android:hint=" Enter Mobile No" />
+                android:hint="Mobile No" />
 
             <com.toptoche.searchablespinnerlibrary.SearchableSpinner
                 android:id="@+id/activity_seller_register_sp_vehicle_type"
@@ -144,7 +144,7 @@
                 android:layout_marginRight="30dp"
                 android:textAlignment="center"
                 android:textSize="14dp"
-                android:hint=" Enter Vehicle type" />
+                android:hint="Enter Vehicle type" />
 
             <EditText
                 android:id="@+id/activity_seller_register_et_vehicle_no"
@@ -161,7 +161,7 @@
                 android:layout_marginRight="30dp"
                 android:textSize="14dp"
                 android:drawableLeft="@drawable/ic_baseline_local_car_wash_24"
-                android:hint=" Enter Vehicle No" />
+                android:hint="Vehicle No" />
 
             <com.toptoche.searchablespinnerlibrary.SearchableSpinner
                 android:id="@+id/activity_seller_register_sp_district"
@@ -194,7 +194,7 @@
                 android:textSize="14dp"
                 android:inputType="textPassword"
                 android:drawableLeft="@drawable/ic_baseline_local_police_24"
-                android:hint=" Enter Password" />
+                android:hint="Create Password" />
 
             <EditText
                 android:id="@+id/activity_seller_register_et_c_password"
@@ -211,7 +211,7 @@
                 android:layout_marginRight="30dp"
                 android:textSize="14dp"
                 android:drawableLeft="@drawable/ic_baseline_local_police_24"
-                android:hint=" Enter Confirm Password"
+                android:hint="Confirm Password"
                 android:inputType="textPassword"/>
 
             <Button

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="com.dev.hasarelm.buyingselling">
+    package="com.thilandanidu.android.ebsy">
 
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
     <uses-permission android:name="android.permission.CALL_PHONE" />
@@ -23,15 +23,15 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.BuyingSelling">
-        <activity android:name=".Activity.Customer.CreateOrderActivity"></activity>
-        <activity android:name=".Activity.Seller.SellerAddActivity" />
-        <activity android:name=".Activity.ForgetPasswordActivity" />
-        <activity android:name=".Activity.Seller.SellerHomeActivity" />
-        <activity android:name=".Activity.Customer.CustomerHomeActivity" />
-        <activity android:name=".Activity.Seller.SellerRegisterActivity" />
-        <activity android:name=".Activity.Customer.CustomerRegisterActivity" />
-        <activity android:name=".Activity.LoginActivity" />
-        <activity android:name=".SplashActivity">
+        <activity android:name="com.thilandanidu.android.ebsy.Activity.Customer.CreateOrderActivity"></activity>
+        <activity android:name="com.thilandanidu.android.ebsy.Activity.Seller.SellerAddActivity" />
+        <activity android:name="com.thilandanidu.android.ebsy.Activity.ForgetPasswordActivity" />
+        <activity android:name="com.thilandanidu.android.ebsy.Activity.Seller.SellerHomeActivity" />
+        <activity android:name="com.thilandanidu.android.ebsy.Activity.Customer.CustomerHomeActivity" />
+        <activity android:name="com.thilandanidu.android.ebsy.Activity.Seller.SellerRegisterActivity" />
+        <activity android:name="com.thilandanidu.android.ebsy.Activity.Customer.CustomerRegisterActivity" />
+        <activity android:name="com.thilandanidu.android.ebsy.Activity.LoginActivity" />
+        <activity android:name="com.thilandanidu.android.ebsy.SplashActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
